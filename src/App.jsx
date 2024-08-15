@@ -114,7 +114,7 @@ function Page() {
               <h2 className="text-sm sm:text-base md:text-lg pl-12 text-white font-bold">
                 Witness the creation of something amazing
               </h2>
-              <p className="text-3xl md:text-4xl text-center font-bold">
+              <p className="text-3xl md:text-5xl text-center font-bold">
                 The Beginning Of Something Propably <br /> Truly Super Epic{" "}
               </p>
             </div>
