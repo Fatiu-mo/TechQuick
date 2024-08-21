@@ -14,6 +14,7 @@ import contactBg from "./assets/bg-contact.svg";
 import headerBg from "./assets/headerBg.jpg";
 import logo from "./assets/KayPHP.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Footer from './components/Footer'
 
 function Page() {
   const [open, setOpen] = useState(false);
@@ -115,7 +116,7 @@ function Page() {
                 Witness the creation of something amazing
               </h2>
               <p className="text-3xl md:text-5xl text-center font-bold">
-                The Beginning Of Something Propably <br /> Truly Super Epic{" "}
+                The Beginning Of Something Propably <span className="text-left">Truly Super Epic</span>{" "}
               </p>
             </div>
           </main>
@@ -266,6 +267,7 @@ function Page() {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
